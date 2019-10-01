@@ -22,18 +22,18 @@
              <td id="itemPlaceholder" runat="server"></td>
           </tr>
          </GroupTemplate>
-         <ItemTemplate>
+        <ItemTemplate>
               <td runat="server">
                   <table>
                      <tr>
                      <td>
-                         <a href="ChiTietTruyen.aspx?MaTruyen=<%#:Item.MaTruyen%>">
+                         <a href="ChiTietTruyen.aspx?bookID=<%#:Item.MaTruyen%>">
                          <img src ="/Images/<%#:Item.HinhAnh%>" width="150" height="225" style="border:solid" /></a>
                     </td>
                      </tr>
              <tr>
           <td>
-         <a href="Danhsach.aspx?bookID=<%#:Item.MaTruyen%>">
+         <a href="BookDetails.aspx?bookID=<%#:Item.MaTruyen%>">
          <span>
          <%#:Item.TenTruyen%>
              </span>

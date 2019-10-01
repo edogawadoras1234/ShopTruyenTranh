@@ -108,7 +108,7 @@ namespace ShopTruyenTranh.Logic
                         // Lặp qua các hàng trong giỏ hàng
                         for (int i = 0; i < CartItemCount; i++)
                         {
-                            if (cartItem.TruyenTranh.MaTruyen == CartItemUpdates[i].BookId)
+                            if (cartItem.TruyenTranh.MaTruyen == CartItemUpdates[i].MaTruyen)
                             {
                                 if (CartItemUpdates[i].PurchaseQuantity < 1 ||
                                CartItemUpdates[i].RemoveItem == true)
@@ -200,11 +200,11 @@ namespace ShopTruyenTranh.Logic
                           select (int?)cartItems.Quantity).Sum();
             // Trả về 0 nếu rỗng
             return count ?? 0;
-            return 0;
+
         }
         public struct ShoppingCartUpdates
         {
-            public int BookId;
+            public int MaTruyen;
             public int PurchaseQuantity;
             public bool RemoveItem;
         }

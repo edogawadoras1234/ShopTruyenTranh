@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 namespace ShopTruyenTranh
 {
-    public partial class Dangnhap : System.Web.UI.Page
+    public partial class Dangnhap : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

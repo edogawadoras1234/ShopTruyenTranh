@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
       <body style="background-image:url(../Images/backg.png)"> 
-    <div style="margin-top:200px">
+    <div style="margin-top:100px">
     <h2><%: Title %>.</h2>
     <h3>Nếu có bất kì bộ truyện nào được yêu mến, các bạn có thể liên hệ với </h3>
     <address>

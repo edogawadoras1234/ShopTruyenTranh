@@ -47,7 +47,7 @@ namespace ShopTruyenTranh
 
             if (Password.Text == "")
                 mk.Visible = true;
-            else mk.Visible = false;
+            else
             {
 
                 if (KtTrungKhoa())
