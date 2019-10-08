@@ -4,7 +4,7 @@
 <h3>Đăng nhập</h3>
 <img src="imgReadMe/dangnhap.png">
 <h3>Đăng nhập dựa vào dữ liệu đã được đăng kí</h3>
-<img src="imgReadMe/dldangnhap.png">
+<img src="imgReadMe/dldangnhap.jpg">
 <h3>Đăng kí</h3>
 <img src="imgReadMe/dangki.png">
 <h3>Các loại sách được bán</h3>
@@ -18,5 +18,5 @@
 <h3>Bấm vào các thể loại sách để ra các loại sách khác nhau</h3>
 <img src="imgReadMe/cactheloai.png">
 <h3>Cơ Sở Dữ Liệu</h3>
-<img src="imgReadMe/DL1.png">
-<img src="imgReadMe/DL2.png">
+<img src="imgReadMe/DL1.JPG">
+<img src="imgReadMe/DL2.JPG">
