@@ -33,7 +33,7 @@
                      </tr>
              <tr>
           <td>
-         <a href="BookDetails.aspx?bookID=<%#:Item.MaTruyen%>">
+         <a href="ChiTietTruyen.aspx?bookID=<%#:Item.MaTruyen%>">
          <span>
          <%#:Item.TenTruyen%>
              </span>
@@ -44,7 +44,7 @@
           </span>
 
              <br />
-              <a href="AddToCart.aspx?bookID=<%#:Item.MaTruyen%>">
+              <a href="AddToCart.aspx?MaTruyen=<%#:Item.MaTruyen%>">
      <span>
          <b>Thêm vào giỏ sách<b>
             </span>
