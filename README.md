@@ -4,7 +4,7 @@
 <h3>Đăng nhập</h3>
 <img src="imgReadMe/dangnhap.png">
 <h3>Đăng nhập dựa vào dữ liệu đã được đăng kí</h3>
-<img src="imgReadMe/dldangnhap.jpg">
+<img src="imgReadMe/dldangnhap.JPG">
 <h3>Đăng kí</h3>
 <img src="imgReadMe/dangki.png">
 <h3>Các loại sách được bán</h3>
