@@ -4,8 +4,7 @@
 
         <div id="ShoppingCartTitle" runat="server" class="ContentHead"><h1> Giỏ hàng</h1></div>
  <asp:GridView ID="CartList" runat="server" AutoGenerateColumns="False" ShowFooter="True" GridLines="Vertical" CellPadding="4" ItemType="ShopTruyenTranh.Models.CartItem" SelectMethod ="GetShoppingCartItems" CssClass="table table-striped table-bordered" >
- <Columns><asp:BoundField DataField="BookID" HeaderText="ID"
- SortExpression="BookID" />
+ <Columns><asp:BoundField DataField="MaTruyen" HeaderText="ID" SortExpression="MaTruyen" />
  <asp:BoundField DataField="TruyenTranh.TenTruyen" HeaderText="Tên Sách" />
  <asp:BoundField DataField="TruyenTranh.GiaTruyen" HeaderText="Giá Sách" DataFormatString="{0:c}"/>
  <asp:TemplateField HeaderText="Số lượng">

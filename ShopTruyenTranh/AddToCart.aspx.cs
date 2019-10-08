@@ -14,8 +14,8 @@ namespace ShopTruyenTranh
         protected void Page_Load(object sender, EventArgs e)
         {
             string rawId = Request.QueryString["MaTruyen"];
-            int matruyen;
-            if (!String.IsNullOrEmpty(rawId) && int.TryParse(rawId, out matruyen))
+            int matr;
+            if (!String.IsNullOrEmpty(rawId) && int.TryParse(rawId, out matr))
             {
                 using (ShoppingCartActions usersShoppingCart = new
                 ShoppingCartActions())

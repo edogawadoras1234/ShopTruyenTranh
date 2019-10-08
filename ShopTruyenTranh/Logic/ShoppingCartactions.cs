@@ -163,8 +163,7 @@ namespace ShopTruyenTranh.Logic
                 try
                 {
                     var myItem = (from c in _db.ShoppingCartItems
-                                  where c.CartId == updateCartID && c.TruyenTranh.MaTruyen ==
-                                 updateBookID
+                                  where c.CartId == updateCartID && c.TruyenTranh.MaTruyen == updateBookID
                                   select c).FirstOrDefault();
                     if (myItem != null)
                     {
